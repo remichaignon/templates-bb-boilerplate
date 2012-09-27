@@ -1,6 +1,6 @@
 //
 // test.js
-// BOILERPLATE_COMPANY
+// BOILERPLATE_YOUR_APP
 //
 // Defines the testing suites
 //

@@ -1,8 +1,8 @@
 //
 // app.js
-// BOILERPLATE_COMPANY
+// BOILERPLATE_YOUR_APP
 //
-// Defines the Simple Energy application
+// Defines the BOILERPLATE_YOUR_APP application
 //
 // ============================================================================
 //

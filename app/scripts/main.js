@@ -1,6 +1,6 @@
 //
 // main.js
-// BOILERPLATE_COMPANY
+// BOILERPLATE_YOUR_APP
 //
 // Defines the requirejs build system
 //

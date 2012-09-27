@@ -1,6 +1,6 @@
 //
 // build.js
-// BOILERPLATE_COMPANY
+// BOILERPLATE_YOUR_APP
 //
 // Defines the requirejs optimizer build system
 //
