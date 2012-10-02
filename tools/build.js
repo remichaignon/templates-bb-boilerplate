@@ -1,6 +1,6 @@
 //
 // build.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
 // Defines the requirejs optimizer build system
 //
@@ -14,7 +14,7 @@
 
 ({
 
-	out: "../dist/BOILERPLATE_YOUR_APP.js",
+	out: "../dist/YOUR_APP.js",
 	baseUrl: "../app/scripts",
 	name: "main",
 	include: "requirejs",

@@ -1,6 +1,6 @@
 //
 // router.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
 // Defines the router used for the navigation
 //

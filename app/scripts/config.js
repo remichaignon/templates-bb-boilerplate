@@ -1,6 +1,6 @@
 //
 // config.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
 // Defines the configuration parameters
 //

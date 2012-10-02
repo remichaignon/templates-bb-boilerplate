@@ -1,6 +1,6 @@
 //
 // main.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
 // Defines the requirejs build system
 //
@@ -55,8 +55,8 @@ require(
 	function($, Application) {
 		console.log("[main] Loaded");
 
-		var BOILERPLATE_YOUR_APP = new Application();
-		window.BOILERPLATE_YOUR_APP = BOILERPLATE_YOUR_APP;
-		$(document).ready(BOILERPLATE_YOUR_APP.init);
+		var YOUR_APP = new Application();
+		window.YOUR_APP = YOUR_APP;
+		$(document).ready(YOUR_APP.init);
 	}
 );

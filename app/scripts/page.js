@@ -1,6 +1,6 @@
 //
 // page.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
 // Defines the page behaviour
 //
@@ -29,7 +29,7 @@ define(
 			initialize: function(args, options) {
 				// Get page template
 				_.extend(this, args);
-				this.template = BOILERPLATE_YOUR_APP.templates.where({ name: "page_" + this.name })[0];
+				this.template = YOUR_APP.templates.where({ name: "page_" + this.name })[0];
 			},
 			render: function(data) {
 				var that = this;

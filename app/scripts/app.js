@@ -1,8 +1,8 @@
 //
 // app.js
-// BOILERPLATE_YOUR_APP
+// YOUR_APP
 //
-// Defines the BOILERPLATE_YOUR_APP application
+// Defines the YOUR_APP application
 //
 // ============================================================================
 //
@@ -32,7 +32,7 @@ define(
 				var templatesReadyCallback = function() {
 					that.start();
 				};
-				TemplatesBB.ready(BOILERPLATE_YOUR_APP, { baseURL: Config.templates_url, lang: Config.lang }, templatesReadyCallback);
+				TemplatesBB.ready(YOUR_APP, { baseURL: Config.templates_url, lang: Config.lang }, templatesReadyCallback);
 			};
 
 			this.start = function() {
