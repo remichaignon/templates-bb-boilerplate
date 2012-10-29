@@ -72,7 +72,9 @@ require(
 
 		test("Extending view's attributes", function() {
 			window.YOUR_APP = { templates: new Backbone.Collection() };
+			YOUR_APP.templates.add({ name: "page_example" });
 			var view = new Page.default.View({ name: "example" });
+
 			ok(view.name === "example", "Name passed to view");
 		});
 
@@ -82,6 +84,7 @@ require(
 
 			setTimeout(function() {
 				var view = new Page.default.View({ name: "example" });
+
 				ok("undefined" !== typeof view.template, "Template has been retrieved");
 				strictEqual(view.template.get("markup"), "<div><%= test %></div>", "Template's markup match");
 				ok("undefined" !== typeof view.template.get("localization").test, "Template's localization match");
@@ -97,6 +100,7 @@ require(
 			setTimeout(function() {
 				var view = new Page.default.View({ name: "example", el: "#test" });
 				view.render({});
+
 				strictEqual(view.$el.html(), view.template.get("html"), "Element and template html match");
 
 				QUnit.start();

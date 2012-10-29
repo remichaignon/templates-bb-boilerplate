@@ -29,7 +29,9 @@ define(
 			initialize: function(args, options) {
 				// Get page template
 				_.extend(this, args);
-				this.template = YOUR_APP.templates.where({ name: "page_" + this.name })[0];
+
+				var pageTemplate = YOUR_APP.templates.where({ name: "page_" + this.name })[0];
+				this.template = new TemplatesBB.TemplateModel(pageTemplate.attributes);
 			},
 			render: function(data) {
 				var that = this;
